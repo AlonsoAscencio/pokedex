@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100%; 
+    background-image:url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.container{
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    top: 20%;
+    left: 20%;    
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    filter:drop-shadow(10px 10px 40px #fff) ;
+    transition: all 0.3s;
+    filter: blur(0.5px);
+    position: absolute;
+}
+
+.container img:hover{
+    filter: drop-shadow(10px 10px 80px #fff);
+
+}
+.pantalla{
+    background-color: rgba(3, 43, 13, 0.733);
+    width: 315px;
+    height: 235px;
+    position: absolute;
+    top: 240px;
+    left: 105px;
+    border-radius: 1rem;
+}
+.pantalla img{
+    position: relative;
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+.buscador{
+    
+    position: absolute;
+    top: 680px;
+    left: 135px;
+   
+}
+#pokeName{
+    background:none;
+    width: 157px; 
+    border: none;
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+#search{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 564px;
+    border-radius: 50%;
+    left: 63px;
+    background-color: rgba(0, 0, 0, 0.884);
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 5px rgb(0, 0, 0));
+}
+#reset{
+    background-color: rgb(255, 0, 0);
+    width: 70px;
+    height: 15px;
+    position: absolute;
+    top: 589px;
+    left: 151px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.pad{
+    position: absolute;
+    width: 122px;
+    height: 140px;
+    top: 580px;
+    left: 332px;
+    background-color: #d30a40;
+}
+#up{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #000000e0;
+    left: 39px;
+    top: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 5px rgb(0, 0, 0));
+}
+#left{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #000000e0;
+    top: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 5px rgb(0, 0, 0));
+}
+#right{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #000000e0;
+    left: 79px;
+    top: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 5px rgb(0, 0, 0));
+}
+#down{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #000000e0;
+    left: 39px;
+    top: 86px;
+    border-radius: 50%;
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 5px rgb(0, 0, 0));
+}
+.pantalla_derecha{
+    position: absolute;
+    width: 318px;
+    height: 130px;
+    background-color: rgba(42, 77, 59, 0.514);
+    top: 262px;
+    left: 605px;
+    border-radius: 15px;
+    
+    
+}
+.pantalla_derecha div{
+    display: flex;
+    position: relative;
+    color: #fff;
+    padding-top: 10px;
+    left: 20px;
+} 
+.pantalla_derecha h4{
+    margin-left: 15px;
+} 
+.tipo, .tipo2{
+    position: absolute;
+    width: 145px;
+    height: 60px;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tipo{
+    top: 672px;
+    left: 605px;
+}
+.tipo2{
+    top: 672px;
+    left: 779px;
+}
+
